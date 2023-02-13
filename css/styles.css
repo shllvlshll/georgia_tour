@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@400;500&display=swap'); 
+
+
+html,body{
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;;
+}
+
+.block4{
+    background: #FBF0F2;
+    
+    text-align: center;
+}
+
+*{
+    
+        
+    font-family: 'Roboto', sans-serif;
+    color: #1C1C1C;
+   
+
+}
+
+
+.phone-icon{
+    width: 18px;
+    height: 18px;
+    
+}
+
+.container{
+    
+}
+
+.headall{
+    
+
+
+
+background: url('./img/image11.jpg') no-repeat center center;
+-webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+height: 256px;
+position: relative;
+
+
+
+}
+
+.head-more{
+
+box-sizing: border-box;
+position: absolute;
+width: 328px;
+height: 224px;
+left: calc(50% - 328px/2);
+top: 16px;
+background: rgba(255, 255, 255, 0.8); 
+}
+
+.head-title-b{
+position: absolute;
+width: 100%;
+height: 56px;
+
+top: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+text-align: center;
+letter-spacing: 0.5px;
+
+
+
+}
+
+
+
+.head-title-s{
+position: absolute;
+width: 100%;
+height: 48px;
+
+top: 92px;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.5px;
+
+
+}
+
+.head-button{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+font-weight: 500;
+position: absolute;
+width: 149px;
+height: 40px;
+
+top: 160px;
+font-size: 14px;
+background: #B02F00;
+border-radius: 100px;
+color: #FFFFFF;
+}
+
+.head-button:hover{
+color: #FFFFFF;
+background: #862200;
+    transition: 0.1ms;
+}
+
+.button-position{
+
+}
+
+
+.p-block{
+
+
+
+margin: 16px auto 16px auto;
+background: #F6E4E3;
+border-radius: 24px;
+position: relative;
+width: 737px;
+}
+
+@media(max-width: 736px){
+    .p-block{
+        width: 100%;
+    }
+}
+
+
+.text-block{
+    padding: 24px 0 0 24px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+}
+
+
+.col-4{
+    width: 35%;
+    
+}
+
+.col-8{
+    width: 65%;
+    padding: 24px 12px 0 24px;
+}
+
+.nika{
+    border-radius: 10% 44% 10% 10%;
+        width: 100%;
+        height: 100%;
+    
+}
+
+
+
+
+    .ann {
+        border-radius: 44% 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+        
+      }
+
+
+
+    .photo-2{
+        
+    border-radius: 100px 100px 12px 12px;
+    width: 100%;
+    
+    
+    
+    }
+
+
+.inside-p{
+    padding-bottom: 24px
+}
+
+.block2q{
+
+    
+    width: 38px;
+    height: 25px
+
+}
+   
+.top-60{
+    top: 60% !important
+}
+
+
+.photo-3{
+
+border-radius: 12px;
+
+
+
+
+}
+
+
+
+
+
+.last-button{
+
+    position: fixed;
+    z-index: 2;
+    right: calc(50% - 736px/2);
+    bottom: -30px;
+    background: #B02F00;
+    
+    width: 159px;
+    height: 56px;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    
+    
+    }
+
+.last-button:hover{
+    color: #FFFFFF;
+    background: #862200;
+    transition: 0.1ms;
+}
+    
+    .last-button.active{
+        visibility: visible;
+        bottom: 16px;
+        opacity: 1;
+        transition: 0.1ms;
+    
+    }
+    
+    .last-button .phone-icon{
+        margin: 19px 0 0 19px;
+    }
+    
+    .wantlast{
+        font-family: 'Inter';
+        font-size: 14px;
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    position:absolute;
+    right: 0;
+    margin: 17px 20px;
+    }
+    
+    .phone-icon{
+        width: 18px;
+        height: 18px;
+        
+    }
+    
+    
+    
+
+    
+
+.title-end{
+    margin: 0 auto;
+    padding: 24px 16px 24px 16px;
+    width: 328px;
+    
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+
+.georgia-waiting{
+    width: 100%;
+    background-size: cover;
+
+    background-color: #B02F00;
+}
+
+
+.ending{
+    height: 88px;
+    background: #FBF0F2;
+    
+    position: relative;
+    
+    
+}
+
+.end-w{
+    
+    font-family: 'Inter';
+    size: 14px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    
+    background-size:cover;
+    position: absolute;
+    height: 20px;
+    
+    
+    line-height: 20px;
+    margin-left: calc(50% - 738px/2);
+    margin-top: 34px;
+    margin-bottom: 34px;
+    
+    
+    
+
+}
+
+@media(max-width: 752px){
+    .end-w{
+        margin-left: 16px;
+        
+    }
+}
+
+
+.invblock{
+    
+    
+
+    
+
+position: relative;
+}
+
+
+.arrow-next{
+    margin-left: 9px;
+    animation: 0.5s linear 1s infinite alternate arrow-move;
+}
+
+@keyframes arrow-move{
+    0%{
+        transform: translate(5px)
+    }
+}
